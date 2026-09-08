@@ -1,0 +1,30 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 16,
+			"lifespan": 1.0,
+			"start_size": 17.0,
+			"finish_size": 33.0,
+			"emitter_angle": 270.0,
+			"duration": 0.15,
+			"start_color_r": 0.400,
+			"start_color_g": 1.000,
+			"start_color_b": 0.200,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.400,
+			"finish_color_g": 1.000,
+			"finish_color_b": 0.200,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_square2.png"
+			}
+		}
+	]
+}

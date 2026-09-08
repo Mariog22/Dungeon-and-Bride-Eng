@@ -1,0 +1,57 @@
+{
+	"emitter": [
+		{
+			"name": "word",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": false,
+			"color_constant": true,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 3,
+			"lifespan": 1.5,
+			"lifespan_variance": 0.5,
+			"start_size": 50.0,
+			"finish_size": 50.0,
+			"emitter_angle": 300.0,
+			"emitter_angle_variance": 30.0,
+			"x_variance": 10.0,
+			"y_variance": 10.0,
+			"speed": 50.0,
+			"offset_y": 80,
+			"start_color_a": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_word.png"
+			}
+		},
+		{
+			"name": "heart",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": false,
+			"color_constant": true,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 1,
+			"lifespan": 1.5,
+			"lifespan_variance": 0.5,
+			"start_size": 50.0,
+			"finish_size": 50.0,
+			"emitter_angle": 300.0,
+			"emitter_angle_variance": 60.0,
+			"x_variance": 10.0,
+			"y_variance": 10.0,
+			"speed": 100.0,
+			"rad_acc": -50.0,
+			"offset_y": 80,
+			"start_color_a": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_love.png"
+			}
+		}
+	]
+}

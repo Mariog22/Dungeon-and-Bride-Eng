@@ -1,0 +1,35 @@
+{
+	"bg_r": 1.000,
+	"bg_g": 1.000,
+	"bg_b": 1.000,
+	"emitter": [
+		{
+			"name": "honoo",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 50,
+			"lifespan": 0.6,
+			"lifespan_variance": 0.3,
+			"start_size": 56.6,
+			"start_size_variance": 40.0,
+			"finish_size": 119.5,
+			"emitter_angle": 280.8,
+			"emitter_angle_variance": 20.4,
+			"x_variance": 30.0,
+			"y_variance": 30.0,
+			"speed": 200.0,
+			"speed_variance": 30.0,
+			"offset_y": 36,
+			"duration": 0.30,
+			"start_color_a": 0.600,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_cloud.png"
+			}
+		}
+	]
+}

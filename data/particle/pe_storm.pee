@@ -1,0 +1,71 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 500,
+			"lifespan": 0.7,
+			"lifespan_variance": 0.5,
+			"start_size": 90.0,
+			"start_size_variance": 10.0,
+			"finish_size": 70.0,
+			"finish_size_variance": 5.0,
+			"emitter_angle": 61.1,
+			"emitter_angle_variance": 1.0,
+			"x_variance": 700.0,
+			"speed": 2000.0,
+			"speed_variance": 30.0,
+			"x_gravity": 40.0,
+			"offset_x": -200,
+			"offset_y": -320,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 1.000,
+			"start_color_a": 0.300,
+			"finish_color_r": 1.000,
+			"finish_color_g": 0.988,
+			"finish_color_b": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_rainline.png"
+			}
+		},
+		{
+			"name": "emitter 02",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 256,
+			"lifespan": 1.0,
+			"start_size": 4.0,
+			"finish_size": 3.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 360.0,
+			"x_variance": 574.1,
+			"y_variance": 30.9,
+			"speed": 300.0,
+			"speed_variance": 30.0,
+			"y_gravity": 61.7,
+			"offset_y": 236,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 1.000,
+			"start_color_a": 0.400,
+			"finish_color_r": 1.000,
+			"finish_color_g": 1.000,
+			"finish_color_b": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_dust.png"
+			}
+		}
+	]
+}

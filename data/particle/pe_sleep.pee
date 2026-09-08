@@ -1,0 +1,32 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": false,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 6,
+			"lifespan": 2.9,
+			"lifespan_variance": 0.2,
+			"start_size": 32.0,
+			"start_size_variance": 10.0,
+			"finish_size": 16.0,
+			"finish_size_variance": 5.0,
+			"emitter_angle": 320.0,
+			"emitter_angle_variance": 5.0,
+			"start_rot_variance": 5.0,
+			"speed": 50.0,
+			"hor_amplitude_var": 2.0,
+			"hor_cycle": 2.00,
+			"offset_y": 80,
+			"start_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_sleep.png"
+			}
+		}
+	]
+}

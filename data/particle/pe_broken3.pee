@@ -1,0 +1,38 @@
+{
+	"emitter": [
+		{
+			"name": "flake",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 4000,
+			"lifespan": 1.0,
+			"lifespan_variance": 0.2,
+			"start_size": 30.0,
+			"start_size_variance": 20.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 150.0,
+			"start_rot_variance": 360.0,
+			"rot_per_sec_variance": 90.0,
+			"x_variance": 50.0,
+			"y_variance": 50.0,
+			"speed": 300.0,
+			"speed_variance": 100.0,
+			"y_gravity": 10.0,
+			"rad_acc": -50.0,
+			"delay": 0.10,
+			"duration": 0.20,
+			"start_color_r": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_blueball.png"
+			}
+		}
+	]
+}

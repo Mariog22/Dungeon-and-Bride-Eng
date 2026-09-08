@@ -1,0 +1,40 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 02",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 100,
+			"lifespan": 1.0,
+			"start_size": 120.0,
+			"start_size_variance": 50.0,
+			"finish_size": 120.0,
+			"emitter_angle": 90.0,
+			"emitter_angle_variance": 10.0,
+			"x_variance": 512.0,
+			"speed": 1000.0,
+			"speed_variance": 100.0,
+			"y_gravity": 60.0,
+			"rad_acc": 400.0,
+			"offset_y": -400,
+			"start_color_r": 1.000,
+			"start_color_g": 0.800,
+			"start_color_b": 0.800,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_g": 0.800,
+			"finish_color_b": 0.800,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": true,
+				"filename": "PE_meteor.png",
+				"split_x": 3,
+				"frames": [100,100,100]
+			}
+		}
+	]
+}

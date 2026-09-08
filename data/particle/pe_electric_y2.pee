@@ -1,0 +1,36 @@
+{
+	"emitter": [
+		{
+			"name": "line",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 16,
+			"lifespan": 0.6,
+			"start_size": 200.0,
+			"finish_size": 200.0,
+			"start_rot_variance": 360.0,
+			"x_variance": 250.0,
+			"y_variance": 30.0,
+			"duration": 0.61,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 0.400,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_g": 1.000,
+			"finish_color_b": 0.400,
+			"finish_color_a": 0.400,
+			"texture": {
+				"is_animation": true,
+				"filename": "PE_thunder.png",
+				"split_x": 4,
+				"split_y": 2,
+				"frames": [50]
+			}
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"emitter": [
+		{
+			"name": "dot",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 128,
+			"lifespan": 0.5,
+			"start_size": 70.0,
+			"start_size_variance": 70.0,
+			"finish_size": 50.0,
+			"x_variance": 600.0,
+			"y_variance": 20.0,
+			"speed": 200.0,
+			"offset_x": -100,
+			"duration": 0.61,
+			"start_color_r": 0.600,
+			"start_color_g": 0.600,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.200,
+			"finish_color_g": 0.200,
+			"finish_color_b": 1.000,
+			"finish_color_a": 0.200,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_light1.png",
+				"frames": [500]
+			}
+		},
+		{
+			"name": "line",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 16,
+			"lifespan": 0.6,
+			"lifespan_variance": 0.3,
+			"start_size": 300.0,
+			"finish_size": 300.0,
+			"x_variance": 600.0,
+			"speed": 100.0,
+			"duration": 0.61,
+			"start_color_r": 0.400,
+			"start_color_g": 0.400,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.400,
+			"finish_color_g": 0.400,
+			"finish_color_b": 1.000,
+			"finish_color_a": 0.400,
+			"texture": {
+				"is_animation": true,
+				"filename": "PE_thunder.png",
+				"split_x": 4,
+				"split_y": 2,
+				"frames": [50]
+			}
+		}
+	]
+}

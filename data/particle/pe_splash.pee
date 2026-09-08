@@ -1,0 +1,40 @@
+{
+	"bg_r": 0.018,
+	"emitter": [
+		{
+			"name": "emitter 02",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 1000,
+			"lifespan": 1.0,
+			"lifespan_variance": 0.5,
+			"start_size": 80.0,
+			"start_size_variance": 10.0,
+			"finish_size": 1.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 30.0,
+			"x_variance": 200.0,
+			"y_variance": 100.0,
+			"speed": 500.0,
+			"speed_variance": 300.0,
+			"y_gravity": 500.0,
+			"offset_y": 400,
+			"duration": 0.50,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_g": 1.000,
+			"finish_color_b": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_round.png"
+			}
+		}
+	]
+}

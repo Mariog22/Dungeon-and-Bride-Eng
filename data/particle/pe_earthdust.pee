@@ -1,0 +1,69 @@
+{
+	"emitter": [
+		{
+			"name": "tubu",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 200,
+			"lifespan": 0.5,
+			"start_size": 4.0,
+			"finish_size": 1.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 58.9,
+			"x_variance": 354.3,
+			"y_variance": 43.2,
+			"speed": 200.0,
+			"speed_variance": 100.0,
+			"y_gravity": 142.0,
+			"rad_acc": -34.6,
+			"offset_y": 220,
+			"duration": 0.10,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 0.800,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_g": 1.000,
+			"finish_color_b": 0.800,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_round.png"
+			}
+		},
+		{
+			"name": "smoke",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 20,
+			"lifespan": 2.0,
+			"start_size": 160.0,
+			"start_size_variance": 40.0,
+			"finish_size": 220.1,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 22.6,
+			"x_variance": 335.8,
+			"speed": 129.6,
+			"speed_variance": 30.0,
+			"offset_y": 210,
+			"start_color_r": 0.600,
+			"start_color_g": 0.600,
+			"start_color_b": 0.600,
+			"start_color_a": 0.400,
+			"finish_color_r": 0.600,
+			"finish_color_g": 0.600,
+			"finish_color_b": 0.600,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_cloud.png"
+			}
+		}
+	]
+}

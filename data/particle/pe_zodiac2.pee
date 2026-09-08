@@ -1,0 +1,25 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": false,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 1,
+			"lifespan": 3.0,
+			"start_size": 256.0,
+			"finish_size": 256.0,
+			"start_rot_variance": 360.0,
+			"rot_per_sec": 600.0,
+			"start_color_a": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_zodiacy.png"
+			}
+		}
+	]
+}

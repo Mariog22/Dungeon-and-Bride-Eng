@@ -1,0 +1,33 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "radial",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 64,
+			"lifespan": 3.0,
+			"start_size": 100.0,
+			"finish_size": 250.0,
+			"emitter_angle_variance": 360.0,
+			"max_radius": 500.0,
+			"deg_per_sec": 100.0,
+			"start_color_r": 0.758,
+			"start_color_g": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_g": 0.582,
+			"finish_color_b": 1.000,
+			"finish_color_a": 0.200,
+			"start_color_r_var": 0.103,
+			"finish_color_b_var": 0.085,
+			"finish_color_a_var": 0.091,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_round.png"
+			}
+		}
+	]
+}

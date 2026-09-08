@@ -1,0 +1,38 @@
+{
+	"emitter": [
+		{
+			"name": "flake",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": false,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 1000,
+			"lifespan": 1.5,
+			"lifespan_variance": 0.5,
+			"start_size": 15.0,
+			"start_size_variance": 14.0,
+			"finish_size": 1.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 150.0,
+			"start_rot_variance": 360.0,
+			"rot_per_sec_variance": 90.0,
+			"x_variance": 50.0,
+			"y_variance": 50.0,
+			"speed": 100.0,
+			"speed_variance": 100.0,
+			"y_gravity": 10.0,
+			"rad_acc": -50.0,
+			"delay": 0.10,
+			"duration": 0.20,
+			"start_color_a": 0.800,
+			"finish_color_a": 0.200,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_flake.png",
+				"split_x": 5
+			}
+		}
+	]
+}

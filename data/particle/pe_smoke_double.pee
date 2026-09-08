@@ -1,0 +1,58 @@
+{
+	"bg_a": 1.000,
+	"emitter": [
+		{
+			"name": "cloud",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": false,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 20,
+			"lifespan": 1.0,
+			"lifespan_variance": 0.3,
+			"start_size": 250.0,
+			"start_size_variance": 10.0,
+			"finish_size": 300.0,
+			"emitter_angle": 180.0,
+			"emitter_angle_variance": 30.0,
+			"start_rot_variance": 360.0,
+			"speed": 1000.0,
+			"speed_variance": 30.0,
+			"rad_acc": -19.8,
+			"offset_x": 500,
+			"start_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_cloud.png"
+			}
+		},
+		{
+			"name": "cloud",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": false,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 20,
+			"lifespan": 1.0,
+			"lifespan_variance": 0.3,
+			"start_size": 250.0,
+			"start_size_variance": 10.0,
+			"finish_size": 300.0,
+			"emitter_angle_variance": 30.0,
+			"start_rot_variance": 360.0,
+			"speed": 1000.0,
+			"speed_variance": 30.0,
+			"rad_acc": -19.8,
+			"offset_x": -500,
+			"start_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_cloud.png"
+			}
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"bg_g": 0.033,
+	"emitter": [
+		{
+			"name": "cloud",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 16,
+			"lifespan": 1.6,
+			"lifespan_variance": 0.3,
+			"start_size": 200.0,
+			"start_size_variance": 10.0,
+			"finish_size": 300.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 45.0,
+			"start_rot_variance": 360.0,
+			"speed": 100.0,
+			"speed_variance": 30.0,
+			"rad_acc": -19.8,
+			"offset_y": 60,
+			"start_color_r": 0.600,
+			"start_color_g": 1.000,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.600,
+			"finish_color_g": 1.000,
+			"finish_color_b": 0.600,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_cloud.png"
+			}
+		}
+	]
+}

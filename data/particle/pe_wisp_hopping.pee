@@ -1,0 +1,46 @@
+{
+	"bg_b": 0.008,
+	"emitter": [
+		{
+			"name": "emitter 03",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 40,
+			"lifespan": 0.7,
+			"lifespan_variance": 0.3,
+			"start_size": 180.0,
+			"finish_size": 180.0,
+			"emitter_angle_variance": 360.0,
+			"start_rot_variance": 360.0,
+			"x_variance": 500.0,
+			"y_variance": 100.0,
+			"speed": 300.0,
+			"speed_variance": 30.0,
+			"rad_acc": -20.0,
+			"hor_amplitude": 170.0,
+			"hor_amplitude_var": 100.0,
+			"hor_cycle": 3.80,
+			"ver_amplitude": 140.0,
+			"ver_amplitude_var": 100.0,
+			"ver_cycle": 1.50,
+			"offset_y": 240,
+			"start_color_r": 0.600,
+			"start_color_g": 1.000,
+			"start_color_b": 0.800,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.600,
+			"finish_color_g": 1.000,
+			"finish_color_b": 0.800,
+			"texture": {
+				"is_animation": true,
+				"filename": "PE_wisp.png",
+				"split_y": 3,
+				"frames": [50,50,50]
+			}
+		}
+	]
+}

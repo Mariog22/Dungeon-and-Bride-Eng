@@ -1,0 +1,32 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 10,
+			"lifespan": 1.0,
+			"lifespan_variance": 0.5,
+			"start_size": 100.0,
+			"start_size_variance": 10.0,
+			"finish_size": 300.0,
+			"finish_size_variance": 5.0,
+			"emitter_angle": 270.0,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 1.000,
+			"start_color_a": 0.200,
+			"finish_color_r": 1.000,
+			"finish_color_g": 1.000,
+			"finish_color_b": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_bubble.png"
+			}
+		}
+	]
+}

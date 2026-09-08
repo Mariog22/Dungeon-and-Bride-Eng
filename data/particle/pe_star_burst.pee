@@ -1,0 +1,32 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": true,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 2001,
+			"lifespan": 2.0,
+			"start_size": 25.2,
+			"finish_size": 1.0,
+			"emitter_angle_variance": 360.0,
+			"hor_amplitude": 500.0,
+			"hor_amplitude_var": 500.0,
+			"hor_cycle": 8.00,
+			"start_color_r": 0.400,
+			"start_color_g": 0.600,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_a": 1.000,
+			"start_color_a_var": 0.200,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_arrow.png",
+				"frames": [50]
+			}
+		}
+	]
+}

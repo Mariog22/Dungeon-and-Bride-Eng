@@ -1,0 +1,63 @@
+{
+	"emitter": [
+		{
+			"name": "tubu",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 250,
+			"lifespan": 2.5,
+			"start_size": 4.0,
+			"finish_size": 1.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 10.0,
+			"x_variance": 24.7,
+			"y_variance": 43.2,
+			"speed": 268.5,
+			"speed_variance": 30.0,
+			"y_gravity": 142.0,
+			"rad_acc": -34.6,
+			"start_color_r": 1.000,
+			"start_color_g": 0.200,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_g": 0.200,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_round.png"
+			}
+		},
+		{
+			"name": "honoo",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 200,
+			"lifespan": 2.0,
+			"start_size": 100.0,
+			"start_size_variance": 40.0,
+			"finish_size": 40.0,
+			"emitter_angle": 270.0,
+			"emitter_angle_variance": 15.0,
+			"speed": 129.6,
+			"speed_variance": 30.0,
+			"offset_y": 36,
+			"start_color_r": 1.000,
+			"start_color_g": 0.339,
+			"start_color_b": 0.200,
+			"start_color_a": 0.400,
+			"finish_color_r": 1.000,
+			"finish_color_g": 0.133,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_lightball.png"
+			}
+		}
+	]
+}

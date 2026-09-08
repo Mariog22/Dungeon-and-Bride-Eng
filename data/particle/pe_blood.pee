@@ -1,0 +1,33 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 40,
+			"lifespan": 0.8,
+			"start_size": 50.3,
+			"start_size_variance": 39.0,
+			"finish_size": 2.0,
+			"emitter_angle": 300.0,
+			"emitter_angle_variance": 22.6,
+			"x_variance": 6.2,
+			"y_variance": 6.2,
+			"speed": 300.0,
+			"speed_variance": 30.0,
+			"rad_acc": -291.4,
+			"start_color_r": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 1.000,
+			"finish_color_a": 0.600,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_light1.png"
+			}
+		}
+	]
+}

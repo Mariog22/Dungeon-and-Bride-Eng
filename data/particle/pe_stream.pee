@@ -1,0 +1,35 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 1000,
+			"lifespan": 2.0,
+			"start_size": 30.0,
+			"finish_size": 30.0,
+			"emitter_angle_variance": 1.0,
+			"x_variance": 24.7,
+			"y_variance": 50.0,
+			"speed": 2000.0,
+			"speed_variance": 100.0,
+			"ver_amplitude": 3.1,
+			"offset_x": -500,
+			"start_color_r": 0.145,
+			"start_color_g": 0.600,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_g": 0.400,
+			"finish_color_b": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_lightline.png"
+			}
+		}
+	]
+}

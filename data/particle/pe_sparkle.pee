@@ -1,0 +1,40 @@
+{
+	"emitter": [
+		{
+			"name": "tubu",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 1007,
+			"lifespan": 0.5,
+			"start_size": 5.0,
+			"finish_size": 1.0,
+			"emitter_angle": 300.0,
+			"emitter_angle_variance": 79.2,
+			"x_variance": 30.0,
+			"y_variance": 50.0,
+			"speed": 300.0,
+			"speed_variance": 30.0,
+			"y_gravity": 142.0,
+			"rad_acc": -34.6,
+			"offset_x": -40,
+			"offset_y": 50,
+			"duration": 0.20,
+			"start_color_r": 0.600,
+			"start_color_g": 0.800,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.400,
+			"finish_color_g": 0.400,
+			"finish_color_b": 1.000,
+			"finish_color_a": 0.800,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_round.png"
+			}
+		}
+	]
+}

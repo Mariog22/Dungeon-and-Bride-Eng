@@ -1,0 +1,41 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 3000,
+			"lifespan": 5.0,
+			"start_size": 5.0,
+			"start_size_variance": 1.0,
+			"finish_size": 1.0,
+			"emitter_angle": 274.0,
+			"start_rot_variance": 360.0,
+			"rot_per_sec_variance": 49.8,
+			"x_variance": 340.0,
+			"y_variance": 284.0,
+			"speed": 300.0,
+			"speed_variance": 50.0,
+			"y_gravity": -43.2,
+			"hor_amplitude": 9.4,
+			"hor_amplitude_var": 6.3,
+			"hor_cycle": 4.09,
+			"hor_cycle_var": 2.01,
+			"offset_y": 79,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_a": 0.600,
+			"texture": {
+				"is_animation": true,
+				"filename": "PE_lightgrain.png",
+				"frames": [100]
+			}
+		}
+	]
+}

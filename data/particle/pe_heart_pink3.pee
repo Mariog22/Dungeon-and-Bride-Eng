@@ -1,0 +1,30 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": false,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 48,
+			"lifespan": 2.0,
+			"lifespan_variance": 0.5,
+			"start_size": 40.0,
+			"start_size_variance": 10.0,
+			"finish_size": 30.0,
+			"emitter_angle": 244.5,
+			"emitter_angle_variance": 31.7,
+			"x_variance": 200.0,
+			"y_variance": 100.0,
+			"speed": 120.0,
+			"speed_variance": 20.0,
+			"start_color_a": 0.800,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_heart.png"
+			}
+		}
+	]
+}

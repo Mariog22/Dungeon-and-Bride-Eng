@@ -1,0 +1,72 @@
+{
+	"emitter": [
+		{
+			"name": "powder",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 200,
+			"lifespan": 2.5,
+			"start_size": 10.0,
+			"finish_size": 10.0,
+			"y_variance": 380.0,
+			"speed": 1000.0,
+			"speed_variance": 203.7,
+			"x_gravity": 500.0,
+			"tan_acc": -191.4,
+			"rad_acc": 400.0,
+			"hor_cycle": 0.38,
+			"offset_x": -650,
+			"offset_y": 50,
+			"start_color_r": 0.400,
+			"start_color_g": 0.600,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.400,
+			"finish_color_g": 0.600,
+			"finish_color_b": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_aquabubble.png"
+			}
+		},
+		{
+			"name": "bubble",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 200,
+			"lifespan": 2.5,
+			"start_size": 56.6,
+			"start_size_variance": 25.2,
+			"finish_size": 62.9,
+			"finish_size_variance": 25.2,
+			"y_variance": 380.0,
+			"speed": 1000.0,
+			"speed_variance": 203.7,
+			"x_gravity": 500.0,
+			"tan_acc": -191.4,
+			"rad_acc": 400.0,
+			"hor_cycle": 0.38,
+			"offset_x": -650,
+			"offset_y": 50,
+			"start_color_g": 0.200,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_g": 0.200,
+			"finish_color_b": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_aquabubble.png"
+			}
+		}
+	]
+}

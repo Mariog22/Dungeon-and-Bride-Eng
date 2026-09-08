@@ -1,0 +1,38 @@
+{
+	"emitter": [
+		{
+			"name": "drop",
+			"type": "gravity",
+			"blending_mode": "add",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 60,
+			"lifespan": 1.5,
+			"start_size": 30.0,
+			"start_size_variance": 10.0,
+			"finish_size": 30.0,
+			"finish_size_variance": 10.0,
+			"emitter_angle": 90.0,
+			"emitter_angle_variance": 27.2,
+			"x_variance": 45.0,
+			"speed": 100.0,
+			"speed_variance": 30.0,
+			"y_gravity": 100.0,
+			"offset_y": -152,
+			"start_color_r": 0.200,
+			"start_color_g": 0.400,
+			"start_color_b": 1.000,
+			"start_color_a": 1.000,
+			"finish_color_r": 0.200,
+			"finish_color_g": 0.400,
+			"finish_color_b": 1.000,
+			"finish_color_a": 1.000,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_round.png"
+			}
+		}
+	]
+}

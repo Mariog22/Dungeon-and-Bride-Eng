@@ -1,0 +1,71 @@
+{
+	"emitter": [
+		{
+			"name": "emitter 01",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": true,
+			"texture_direction_before": true,
+			"sort_type": "none",
+			"max_particles": 2000,
+			"lifespan": 2.0,
+			"start_size": 2.0,
+			"finish_size": 2.0,
+			"emitter_angle": 332.8,
+			"emitter_angle_variance": 20.4,
+			"x_variance": 1000.0,
+			"y_variance": 100.0,
+			"speed": 400.0,
+			"x_gravity": 250.0,
+			"y_gravity": -49.4,
+			"rad_acc": 160.0,
+			"offset_x": -700,
+			"offset_y": 300,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 0.800,
+			"start_color_a": 1.000,
+			"finish_color_a": 1.000,
+			"start_color_a_var": 0.200,
+			"texture": {
+				"is_animation": true,
+				"filename": "PE_round.png",
+				"frames": [50]
+			}
+		},
+		{
+			"name": "emitter 02",
+			"type": "gravity",
+			"blending_mode": "normal",
+			"enable_color": true,
+			"color_constant": false,
+			"texture_direction_before": false,
+			"sort_type": "none",
+			"max_particles": 30,
+			"lifespan": 1.0,
+			"lifespan_variance": 0.5,
+			"start_size": 400.0,
+			"finish_size": 200.0,
+			"emitter_angle": 307.9,
+			"x_variance": 512.3,
+			"speed": 100.0,
+			"speed_variance": 30.0,
+			"x_gravity": 308.6,
+			"y_gravity": -160.0,
+			"offset_x": -55,
+			"offset_y": 333,
+			"start_color_r": 1.000,
+			"start_color_g": 1.000,
+			"start_color_b": 0.900,
+			"start_color_a": 0.800,
+			"finish_color_r": 1.000,
+			"finish_color_g": 1.000,
+			"finish_color_b": 0.900,
+			"texture": {
+				"is_animation": false,
+				"filename": "PE_cloud.png"
+			}
+		}
+	]
+}
